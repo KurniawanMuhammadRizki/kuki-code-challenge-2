@@ -10,7 +10,7 @@ const CardServiceHome: React.FC = () => {
       id="solution"
       className="py-[64px] px-5 sm:px-10 md:px-14 lg:px-[76px] bg-base-color flex flex-col items-center text-center justify-center font-Helvetica-Neue">
       <div>
-        <p className="mb-2">Kukilabs's Solution</p>
+        <p className="mb-2">Kukilabs&apos;s Solution</p>
         <h2 className="text-4xl font-bold mb-7">
           find the right solution here
         </h2>

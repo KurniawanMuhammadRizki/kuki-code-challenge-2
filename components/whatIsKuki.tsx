@@ -25,7 +25,7 @@ const WhatIsKuki: React.FC = () => {
             <div className="collapse collapse-arrow join-item border border-base-300">
               <input type="radio" name="my-accordion-4" defaultChecked />
               <div className="collapse-title text-xl font-medium max-w-[800px]">
-                <h2>What are Kuki's products?</h2>
+                <h2>What are Kuki&apos;s products?</h2>
               </div>
               <div className="collapse-content">
                 <div>
@@ -77,10 +77,10 @@ const WhatIsKuki: React.FC = () => {
                 <div>
                   <p>
                     The prices of Kukilabs products can be viewed on the pricing
-                    page. You can customize them according to your company's
-                    conditions and budget. You can choose to subscribe to just
-                    one product or purchase product bundles for more
-                    cost-effectiveness.
+                    page. You can customize them according to your
+                    company&apos;s conditions and budget. You can choose to
+                    subscribe to just one product or purchase product bundles
+                    for more cost-effectiveness.
                   </p>
                 </div>
               </div>

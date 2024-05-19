@@ -9,7 +9,7 @@ const CardInformation: React.FC = () => {
         <div className="card lg:card-side bg-primary-color flex">
           <div className="card-body flex flex-col font-Helvetica-Neue text-white">
             <h2 className="max-w-[500px] font-bold text-4xl text-left">
-              Together, shaping Indonesia's digital economy
+              Together, shaping Indonesia&apos;s digital economy
             </h2>
             <p className="max-w-[500px] text-wrap text-left">
               Kukilabs is a transformative platform that offers digital

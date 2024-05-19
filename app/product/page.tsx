@@ -103,7 +103,7 @@ const Page: React.FC = () => {
         </h2>
       </div>
       {products.map((product, index) => (
-        <div id={product.id}>
+        <div key={product.id} id={product.id}>
           <CardProduct
             key={index}
             src={product.src}

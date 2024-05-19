@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 interface AnimationWrapperProps {
-  y?: number;
+  y?: number | undefined;
   transition: object;
   children: React.ReactNode;
 }

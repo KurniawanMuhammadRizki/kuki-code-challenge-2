@@ -22,7 +22,9 @@ const Milestone: React.FC = () => {
     <div className=" py-[64px] px-5 sm:px-10 md:px-14 lg:px-[76px] bg-primary-color flex flex-col justify-center items-center">
       <div className="text-white mb-4">
         <p>Milestone</p>
-        <h2 className="max-w-[580px] font-bold text-4xl ">Kukilabs's story</h2>
+        <h2 className="max-w-[580px] font-bold text-4xl ">
+          Kukilabs&apos;s story
+        </h2>
         <p>Bringing digital transformation possible in Indonesia.</p>
       </div>
 

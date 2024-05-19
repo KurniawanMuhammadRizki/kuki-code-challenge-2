@@ -9,23 +9,23 @@ const TeamCard: React.FC = () => {
           <div>
             <p className="mb-2">Meet Kukinians behind the scene</p>
             <h2 className="max-w-[580px] font-bold text-4xl text-left">
-              We're not the usual office workers. We're Kukinians.
+              We&apos;re not the usual office workers. We&apos;re Kukinians.
             </h2>
           </div>
           <div className="max-w-[580px] text-wrap  text-left">
             <p>
               This is basically what we do every day. Regardless of our position
               and department, everyone has a part to make an impact. In fact, we
-              challenge everyone to do exactly that. It's always exciting going
-              to work everyday since there's always something new to explore and
-              figure out.
+              challenge everyone to do exactly that. It&apos;s always exciting
+              going to work everyday since there&apos;s always something new to
+              explore and figure out.
             </p>
             <br />
             <p>
-              In other words, we don't care about your tattoos, bleached hair,
-              pierced nose, or your background. What we care about is how
+              In other words, we don&apos;t care about your tattoos, bleached
+              hair, pierced nose, or your background. What we care about is how
               passionate and brave you are to deliver any impactful actions for
-              everyone connected with Kukilabs. <br />{" "}
+              everyone connected with Kukilabs. <br />
               <span className="text-primary-color font-semibold">
                 #KeepUpKeepInnovating
               </span>

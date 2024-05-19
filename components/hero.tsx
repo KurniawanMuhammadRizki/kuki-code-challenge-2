@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
                   d="M19 9l-7 7-7-7"
                 />
               </svg>
-              Explore kuki's solution
+              Explore kuki&apos;s solution
             </Link>
           </div>
         </div>
