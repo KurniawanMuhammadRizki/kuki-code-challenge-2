@@ -42,7 +42,7 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
-          flip={{
+          flipEffect={{
             slideShadows: false,
           }}
           grabCursor={false}
@@ -67,6 +67,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -89,6 +92,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -111,6 +117,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -133,6 +142,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -152,6 +164,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -171,6 +186,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -190,6 +208,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -212,6 +233,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -231,6 +255,9 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          flipEffect={{
+            slideShadows: false,
+          }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
@@ -250,6 +277,9 @@ const ClientsLogo: React.FC = () => {
               disableOnInteraction: false,
             }}
             effect={"flip"}
+            flipEffect={{
+              slideShadows: false,
+            }}
             grabCursor={false}
             modules={[EffectFlip, Autoplay]}
             className="mySwiper"
@@ -272,6 +302,9 @@ const ClientsLogo: React.FC = () => {
               disableOnInteraction: false,
             }}
             effect={"flip"}
+            flipEffect={{
+              slideShadows: false,
+            }}
             grabCursor={false}
             modules={[EffectFlip, Autoplay]}
             className="mySwiper"
