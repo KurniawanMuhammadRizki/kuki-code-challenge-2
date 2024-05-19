@@ -30,7 +30,7 @@ const AnimationWrapper: React.FC<AnimationWrapperProps> = ({
     } else {
       controls.start({
         opacity: 0,
-        y: { y },
+        y: 40,
       });
     }
   }, [controls, inView]);
