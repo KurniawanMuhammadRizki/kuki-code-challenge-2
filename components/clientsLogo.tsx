@@ -42,6 +42,7 @@ const ClientsLogo: React.FC = () => {
             disableOnInteraction: false,
           }}
           effect={"flip"}
+          EffectFlip={{ slideShadows: false }}
           grabCursor={false}
           modules={[EffectFlip, Autoplay]}
           className="mySwiper"
