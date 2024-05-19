@@ -30,6 +30,7 @@ export default function Home() {
               range of Kukilabs products and services."
       />
       <Footer />
+      ///react responsive carousel
     </div>
   );
 }
