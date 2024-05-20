@@ -34,7 +34,7 @@ const TeamCard: React.FC = () => {
         </div>
         <figure>
           <Image
-            className="w-[556] h-[434px] mix-blend-multiply"
+            className="w-[556] h-[434px] object-scale-down mix-blend-multiply"
             src={
               "/vecteezy_business-people-male-and-female-characters-team-stand_20310249.jpg"
             }
