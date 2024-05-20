@@ -21,7 +21,7 @@ const CardCarousel: React.FC<CardCarouselProps> = ({
   desc,
 }) => {
   return (
-    <div className="card h-[252px] pt-0 font-Helvetica-Neue  bg-base-color rounded-xl">
+    <div className="card h-[252px] max-w-[425px] pt-0 font-Helvetica-Neue  bg-base-color rounded-xl">
       <div className="card-body  bg-base-color grid grid-rows-2 ">
         <div className="font-normal font-Helvetica-Neue text-left">{desc}</div>
         <div className="grid grid-cols-5 items-end text-justify">
