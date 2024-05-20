@@ -17,12 +17,13 @@ const OurValue: React.FC = () => {
             alt={"img-our-value"}
           />
         </figure>
-        <div className="card-body p-1 flex flex-col font-Helvetica-Neue  max-w-[580px]  text-white">
+        <div className="card-body p-1 flex flex-col font-Helvetica-Neue justify-center items-center max-w-[580px]  text-white">
           <div>
-            <h2 className="max-w-[580px] font-bold text-4xl text-left">
+            <h2 className="max-w-[580px] font-bold text-4xl text-start">
               Our values
             </h2>
           </div>
+
           <div className="max-w-[580px] text-wrap  text-left">
             <p>
               Kukilabs is made of a group of Kukinians who share the same

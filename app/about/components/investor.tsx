@@ -8,7 +8,7 @@ const Investor: React.FC = () => {
       <div className="mb-[64px]">
         We’re proud to be backed by the leading investors in the region
       </div>
-      <div className="flex flex-row flex-wrap ">
+      <div className="flex justify-center items-center flex-row flex-wrap ">
         <Image
           src={"/logo-inv-money-forward.webp"}
           alt={"money-forward"}
