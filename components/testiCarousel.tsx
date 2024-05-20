@@ -30,7 +30,7 @@ const TestiCarousel: React.FC = () => {
         //   navigation={true}
         modules={[Autoplay, Pagination]}
         className="mySwiper pt-0 rounded-2xl">
-        <SwiperSlide className="h-[272px] pt-0 ">
+        <SwiperSlide className="h-full pt-0 ">
           <CardCarousel
             imgSrc="/logo-148x56-akseleran.webp"
             imgAlt="akseleran"
@@ -44,7 +44,7 @@ const TestiCarousel: React.FC = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide className="h-[272px] pt-0">
+        <SwiperSlide className="h-full pt-0">
           <CardCarousel
             imgSrc="/logo-148x56-klar.webp"
             imgAlt="klar"
@@ -58,7 +58,7 @@ const TestiCarousel: React.FC = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide className="h-[272px] pt-0">
+        <SwiperSlide className="h-full pt-0">
           <CardCarousel
             imgSrc="/Mitsubishi.webp"
             imgAlt="Mitsubishi"
@@ -72,7 +72,7 @@ const TestiCarousel: React.FC = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide className="h-[272px] pt-0">
+        <SwiperSlide className="h-full pt-0">
           <CardCarousel
             imgSrc="/Tata-Logam.webp"
             imgAlt="tata"
