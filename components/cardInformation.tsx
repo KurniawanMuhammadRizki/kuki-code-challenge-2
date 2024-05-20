@@ -21,6 +21,7 @@ const CardInformation: React.FC = () => {
 
           <figure>
             <Image
+              className="max-w-[1301px] max-h-[929px]"
               src={"/img-home-01.webp"}
               alt={"logo-gartner"}
               width={1301}
