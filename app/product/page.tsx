@@ -102,20 +102,23 @@ const Page: React.FC = () => {
           Cloud-based business software <br /> for the future of work{" "}
         </h2>
       </div>
-      {products.map((product, index) => (
-        <div key={product.id} id={product.id}>
-          <CardProduct
-            key={index}
-            src={product.src}
-            alt={product.alt}
-            appName={product.appName}
-            title={product.title}
-            desc={product.desc}
-            list={product.list}
-            imgLeft={product.imgLeft}
-          />
-        </div>
-      ))}
+      <div className="flex flex-col justify-center items-center">
+        {products.map((product, index) => (
+          <div key={product.id} id={product.id}>
+            <CardProduct
+              key={index}
+              src={product.src}
+              alt={product.alt}
+              appName={product.appName}
+              title={product.title}
+              desc={product.desc}
+              list={product.list}
+              imgLeft={product.imgLeft}
+            />
+          </div>
+        ))}
+      </div>
+
       <WhatIsKuki />
       <Cta
         title="Ready to power your growth?"
