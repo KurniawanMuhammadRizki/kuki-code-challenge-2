@@ -13,7 +13,7 @@ const RatingAndTesti: React.FC = () => {
       <div className="mb-4">
         <ListedLogo />
       </div>
-      <div className="h-[272px] w-full">
+      <div className="h-[full] w-full flex justify-center items-center">
         {/* <AnimationWrapper y={40} transition={{ ease: "easeOut", duration: 1 }}> */}
         <TestiCarousel />
         {/* </AnimationWrapper> */}
