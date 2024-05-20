@@ -23,7 +23,12 @@ const WhatIsKuki: React.FC = () => {
         <div>
           <div className="join join-vertical w-full">
             <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked />
+              <input
+                type="radio"
+                name="my-accordion-4"
+                defaultChecked
+                aria-label="featured"
+              />
               <div className="collapse-title text-xl font-medium max-w-[800px]">
                 <h2>What are Kuki&apos;s products?</h2>
               </div>
@@ -53,7 +58,12 @@ const WhatIsKuki: React.FC = () => {
               </div>
             </div>
             <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked />
+              <input
+                type="radio"
+                name="my-accordion-4"
+                defaultChecked
+                aria-label="purchase"
+              />
               <div className="collapse-title text-xl font-medium max-w-[800px]">
                 <h2>How can I purchase or subscribe to Kukilabs products?</h2>
               </div>
@@ -69,7 +79,12 @@ const WhatIsKuki: React.FC = () => {
               </div>
             </div>
             <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked />
+              <input
+                type="radio"
+                name="my-accordion-4"
+                defaultChecked
+                aria-label="price"
+              />
               <div className="collapse-title text-xl font-medium max-w-[800px]">
                 <h2>What is the price of Kukilabs products?</h2>
               </div>
@@ -86,7 +101,12 @@ const WhatIsKuki: React.FC = () => {
               </div>
             </div>
             <div className="collapse collapse-arrow join-item border border-base-300">
-              <input type="radio" name="my-accordion-4" defaultChecked />
+              <input
+                type="radio"
+                name="my-accordion-4"
+                defaultChecked
+                aria-label="SaaS"
+              />
               <div className="collapse-title text-xl font-medium max-w-[800px]">
                 <h2>What is SaaS?</h2>
               </div>
