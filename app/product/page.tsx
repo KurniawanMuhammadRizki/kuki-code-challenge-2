@@ -102,7 +102,7 @@ const Page: React.FC = () => {
           Cloud-based business software <br /> for the future of work{" "}
         </h2>
       </div>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex bg-base-color flex-col justify-center items-center">
         {products.map((product, index) => (
           <div key={product.id} id={product.id}>
             <CardProduct
