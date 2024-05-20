@@ -27,6 +27,7 @@ const CardInformation: React.FC = () => {
               height={929}
               priority={true}
               quality={80}
+              loading={"eager"}
             />
           </figure>
         </div>
