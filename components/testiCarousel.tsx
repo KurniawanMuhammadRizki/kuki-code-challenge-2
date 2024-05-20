@@ -15,7 +15,7 @@ import CardCarousel from "./cardCarousel";
 
 const TestiCarousel: React.FC = () => {
   return (
-    <div className="h-[272px]  bg-base-color w-full sm:w-[352px] md:w-[452px] lg:w-[553px] rounded-xl items-center">
+    <div className="h-[272px] pt-0  bg-base-color w-full sm:w-[352px] md:w-[452px] lg:w-[553px] rounded-xl items-center">
       <Swiper
         spaceBetween={50}
         centeredSlides={true}
