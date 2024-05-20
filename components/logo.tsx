@@ -6,7 +6,12 @@ const Logo = () => {
     <Link
       className=" text-xl hover:border-b-2 border-b-0 border-transparent border-solid"
       href={"/"}>
-      <img className="w-[105px] h-4" src={"/kukilabs_logo.png"} alt="" />
+      <img
+        className="w-[105px] h-4"
+        src={"/kukilabs_logo.png"}
+        alt=""
+        aria-label="Home"
+      />
     </Link>
   );
 };

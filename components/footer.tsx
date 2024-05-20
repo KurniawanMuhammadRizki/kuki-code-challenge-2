@@ -39,7 +39,9 @@ const Footer: React.FC = () => {
         </nav>
         <nav>
           <h6 className="footer-title">Solution</h6>
-          <a className="link link-hover">Pricing</a>
+          <a className="link link-hover" aria-label="pricing">
+            Pricing
+          </a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>
