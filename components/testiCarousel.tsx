@@ -29,7 +29,7 @@ const TestiCarousel: React.FC = () => {
         }}
         //   navigation={true}
         modules={[Autoplay, Pagination]}
-        className="mySwiper pt-0 rounded-2xl">
+        className="mySwiper h-full pt-0 rounded-2xl">
         <SwiperSlide className="h-full pt-0 ">
           <CardCarousel
             imgSrc="/logo-148x56-akseleran.webp"
