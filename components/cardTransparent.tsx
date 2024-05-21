@@ -81,7 +81,6 @@ const CardTransparent: React.FC = () => {
             alt={"img-hero-about"}
             width={1301}
             height={929}
-            priority={true}
             loading="lazy"
             className="w-full h-auto"
           />

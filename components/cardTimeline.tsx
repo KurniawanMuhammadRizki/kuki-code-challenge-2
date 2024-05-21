@@ -14,13 +14,13 @@ const CardTimeline: React.FC<CardTimelineProps> = ({
   alt,
 }) => {
   return (
-    <div className="card w-94 bg-base-color shadow-xl  mr-4">
-      <figure className="px-10 pt-10">
-        <img src={src} alt={alt} className="rounded-xl " />
+    <div className="card bg-base-color shadow-xl mx-auto my-4 w-full max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg">
+      <figure className="px-4 pt-4 sm:px-6 sm:pt-6">
+        <img src={src} alt={alt} className="rounded-xl w-full" />
       </figure>
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">{year}</h2>
-        <p>{desc}</p>
+      <div className="card-body items-center text-center p-4 sm:p-6">
+        <h2 className="card-title text-lg sm:text-xl">{year}</h2>
+        <p className="text-sm sm:text-base">{desc}</p>
       </div>
     </div>
   );
