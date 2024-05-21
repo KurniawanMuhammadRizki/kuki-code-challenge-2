@@ -77,11 +77,12 @@ const CardTransparent: React.FC = () => {
         </div>
         <figure className="w-full lg:w-1/2">
           <Image
-            src={"/img-hero-about.png"}
+            src={"/img-hero-about.webp"}
             alt={"img-hero-about"}
             width={1301}
             height={929}
             priority={true}
+            loading="lazy"
             className="w-full h-auto"
           />
         </figure>
