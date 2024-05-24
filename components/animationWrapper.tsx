@@ -17,7 +17,7 @@ const AnimationWrapper: React.FC<AnimationWrapperProps> = ({
 }) => {
   const controls = useAnimation();
   const [ref, inView] = useInView({
-    threshold: 0.1, // Adjust this threshold as needed
+    threshold: 0.1,
   });
 
   React.useEffect(() => {

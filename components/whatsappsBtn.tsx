@@ -7,7 +7,7 @@ const WhatsappsBtn = () => {
     <div>
       <Link
         className="btn btn-md text-white btn-primary"
-        href="https://wa.me/6281340921609">
+        href="https://wa.me/6281240932790">
         <Image
           src={"/whatsapp-fill-svgrepo-com (1).svg"}
           alt={"wa"}
