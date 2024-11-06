@@ -18,6 +18,7 @@ const leaderList = () => {
       try {
         setLoading(true);
 
+        //const storedLeaderList = localStorage.getItem("LeaderList");
         const storedLeaderList = localStorage.getItem("LeaderList");
         if (storedLeaderList) {
           setLeaderList(JSON.parse(storedLeaderList));
